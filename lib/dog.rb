@@ -13,4 +13,4 @@ class Dog
   
 end
 natalie = Dog.new
-natalie.name ("Natalie")
+natalie.name 
