@@ -13,11 +13,11 @@ class Dog
   end
   def breed=(breed)
     if breed == nil 
-      puts "Mutt"
+      @breed = "Mutt"
     else
       @breed = breed
-      
-    
+    end
+  end
 end
-natalie = Dog.new("Natalie")
+natalie = Dog.new("Natalie","Black Labrador")
 natalie.name 
