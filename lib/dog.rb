@@ -15,5 +15,6 @@ class Dog
       @breed = breed
   end
 end
+
 natalie = Dog.new("Natalie", "Black Lab")
 natalie.name
