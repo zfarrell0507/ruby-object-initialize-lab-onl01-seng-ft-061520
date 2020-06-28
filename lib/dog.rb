@@ -35,3 +35,4 @@ class Dog
 end
 natalie = Dog.new("Natalie", "Black Lab")
 natalie.name
+natalie = Dog.new("Natalie")
